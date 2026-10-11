@@ -43,5 +43,4 @@ public class NeuronPopulation {
             if (h >= 0.25) return NeuronState.SIGNIFICANT;
             return NeuronState.SEVERE;
         }
-
 }

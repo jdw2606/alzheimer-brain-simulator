@@ -1,15 +1,8 @@
 package com.alzheimersim.config;
 
-/**
- * All tunable simulation parameters in one place. Defaults are simulation
- * assumptions chosen to be plausible and interpretable for a student
- * project - they are not calibrated clinical constants.
- */
 public class SimulationConfig {
-
     public long randomSeed = 42L;
 
-    // Network
     public int entorhinalCount = 75;
     public int hippocampusCount = 125;
     public int cortexCount = 300;
@@ -19,7 +12,6 @@ public class SimulationConfig {
     public double initialWeightMin = 0.2;
     public double initialWeightMax = 0.6;
 
-    // Memory
     public double memoryPatternFraction = 0.10;
     public double memoryPatternActivation = 0.85;
     public double memoryBaselineActivation = 0.05;
@@ -28,18 +20,15 @@ public class SimulationConfig {
     public int recallSettleSteps = 20;
     public double recallLeak = 0.5;
 
-    // Disease - tau pathology
     public double tauSeedFraction = 0.05;
     public double tauSeedMin = 0.05;
     public double tauSeedMax = 0.15;
     public double tauAccumulationRate = 0.02;
     public double tauSpreadRate = 0.008;
 
-    // Synaptic damage
     public double synapticDamageRate = 0.05;
     public double synapseLossThreshold = 0.02;
 
-    // Neuron health
     public double healthDecayRate = 0.02;
     public double synapticLossHealthWeight = 0.3;
     public double vulnerabilityMin = 0.7;
