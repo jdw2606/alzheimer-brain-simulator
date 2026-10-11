@@ -1,0 +1,11 @@
+.recall-chart .default-color0.chart-series-line { -fx-stroke: #2ecc71; -fx-stroke-width: 2.5px; }
+.recall-chart .default-color0.chart-legend-item-symbol { -fx-background-color: #2ecc71; }
+.recall-chart .default-color1.chart-series-line { -fx-stroke: #e74c3c; -fx-stroke-width: 2.5px; }
+.recall-chart .default-color1.chart-legend-item-symbol { -fx-background-color: #e74c3c; }
+
+.tau-chart .default-color0.chart-series-line { -fx-stroke: #3498db; -fx-stroke-width: 2.5px; }
+.tau-chart .default-color0.chart-legend-item-symbol { -fx-background-color: #3498db; }
+.tau-chart .default-color1.chart-series-line { -fx-stroke: #9b59b6; -fx-stroke-width: 2.5px; }
+.tau-chart .default-color1.chart-legend-item-symbol { -fx-background-color: #9b59b6; }
+.tau-chart .default-color2.chart-series-line { -fx-stroke: #e67e22; -fx-stroke-width: 2.5px; }
+.tau-chart .default-color2.chart-legend-item-symbol { -fx-background-color: #e67e22; }
